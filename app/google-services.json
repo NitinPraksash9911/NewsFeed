@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "929680034932",
+    "firebase_url": "https://newsfeed-819ce.firebaseio.com",
+    "project_id": "newsfeed-819ce",
+    "storage_bucket": "newsfeed-819ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929680034932:android:e1e29ea8e6fd2b01a6d521",
+        "android_client_info": {
+          "package_name": "com.example.newsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929680034932-24744tfd69vcsefvjls0g3kvjhfoeqbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsfeed",
+            "certificate_hash": "a0afea8c0e9a501ddab05ac4d8ffebde313d5979"
+          }
+        },
+        {
+          "client_id": "929680034932-dq4hvchl040aqea79o1tm10s83go75da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-uJBaAT_mNFQzjZyEYVnPHQv7Q1c9EMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929680034932-dq4hvchl040aqea79o1tm10s83go75da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

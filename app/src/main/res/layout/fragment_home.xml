@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/homeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/article_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/increaseDateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:layout_marginBottom="194dp"
+                android:background="@color/fabTextColor"
+                android:padding="8dp"
+                android:text="@string/old_to_new"
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="184dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:elevation="16dp"
+                android:focusable="true"
+                android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+                android:visibility="invisible"
+                app:backgroundTint="@android:color/white"
+                app:pressedTranslationZ="12dp" />
+
+            <TextView
+                android:id="@+id/decreaseDateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:layout_marginBottom="124dp"
+                android:background="@color/fabTextColor"
+                android:padding="8dp"
+                android:text="@string/new_to_old"
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabDecrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="114dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:elevation="16dp"
+                android:focusable="true"
+                android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:visibility="invisible"
+                app:backgroundTint="@android:color/white"
+                app:pressedTranslationZ="12dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/mainFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="40dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:elevation="16dp"
+                android:focusable="true"
+                android:src="@drawable/ic_filter_list_black_24dp"
+                android:visibility="visible"
+                app:backgroundTint="@android:color/white"
+                app:pressedTranslationZ="12dp" />
+
+            <ProgressBar
+                android:id="@+id/progress_horizontal"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:indeterminate="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

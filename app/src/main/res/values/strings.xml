@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsFeed</string>
+    <string name="read_more"><u>Read More...</u></string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="saved">Saved</string>
+    <string name="old_to_new">old to new</string>
+    <string name="new_to_old">new to old</string>
+    <string name="fcm_topic">newsfeed.moEngange.com</string>
+</resources>
